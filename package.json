@@ -1,0 +1,9 @@
+{
+  "name": "apollo-lottery-ai",
+  "version": "0.1.1",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20.19.0" },
+  "scripts": { "dev": "vite", "build": "vite", "preview": "vite preview" },
+  "devDependencies": { "vite": "latest" }
+}
