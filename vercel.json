@@ -1,5 +1,5 @@
 {
-  "installCommand": "pnpm install --frozen-lockfile",
-  "buildCommand": "pnpm build",
-  "outputDirectory": "dist"
+  "installCommand": "echo 'Static site: dependencies are not required'",
+  "buildCommand": "echo 'Static site: build is not required'",
+  "outputDirectory": "."
 }
