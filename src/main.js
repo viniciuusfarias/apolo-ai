@@ -1,5 +1,4 @@
 import { GlobalLotteryDataService } from './services/globalLotteryDataService.js';
-import './welcome.css';
 
 const app = document.querySelector('#app');
 const globalLotteryDataService = new GlobalLotteryDataService();
