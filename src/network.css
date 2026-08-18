@@ -1,0 +1,9 @@
+.global-network-banner {
+  background: #effbf4;
+  border-color: #ccebd7;
+  color: #1b7042;
+}
+
+.global-network-banner > span:first-child {
+  color: #19a35a;
+}
