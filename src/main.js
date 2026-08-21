@@ -71,7 +71,7 @@ const sourceStatus = () => {
   if (state.official.status === 'loading') return { icon: '●', title: 'Consultando fonte oficial', text: 'Validando resultados de Powerball e Mega Millions.', className: '' };
   return { icon: '●', title: 'Fonte temporariamente indisponível', text: state.official.error || 'Não foi possível validar os resultados neste momento. Tente novamente em alguns minutos.', className: '' };
 };
-function officialBanner() { const status = sourceStatus(); return `<div class="demo-banner ${status.className}"><span>${status.icon}</span><b>${status.title}</b><span>${status.text}</span><a href="https://data.ny.gov" target="_blank" rel="noreferrer">Ver fonte dos dados</a></div>`; }
+function officialBanner() { const status = sourceStatus(); return `<div class="demo-banner ${status.className}"><span>${status.icon}</span><b>${status.title}</b><span>${status.text}</span></div>`; }
 function officialScore(nums) { return combinationScore(nums, officialStatisticsFor(state.lottery), config[state.lottery].range).score; }
 function officialGenerate() {
   const draws = officialDrawsFor(state.lottery);
