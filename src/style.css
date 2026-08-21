@@ -4,3 +4,4 @@
 .brand-logo{display:block;width:58px;height:58px;object-fit:contain}.welcome-visual .brand-logo{width:76px;height:76px}.mobile-bar .brand-logo{width:42px;height:42px}
 /* Side surfaces use the same navy palette as the Apollo logo. */
 :root{--navy:#0a2c60;--dark:#061a3d}
+:where(.disclaimer,.disclaimer-card,.probability-note,.ticket-guide,footer,.welcome-form>small){display:none!important}
