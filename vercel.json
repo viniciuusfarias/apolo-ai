@@ -1,5 +1,11 @@
 {
   "installCommand": "echo 'Static site: dependencies are not required'",
   "buildCommand": "echo 'Static site: build is not required'",
-  "outputDirectory": "."
+  "outputDirectory": ".",
+  "crons": [
+    {
+      "path": "/api/cron/sync",
+      "schedule": "0 9 * * *"
+    }
+  ]
 }
