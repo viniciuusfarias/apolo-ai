@@ -6,4 +6,9 @@
 
 .global-network-banner > span:first-child {
   color: #19a35a;
+  animation: official-status-pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes official-status-pulse {
+  50% { opacity: .45; transform: scale(.82); }
 }
