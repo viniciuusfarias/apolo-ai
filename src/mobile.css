@@ -1,0 +1,75 @@
+@media (max-width: 760px) {
+  body {
+    min-width: 0;
+    overscroll-behavior-y: none;
+  }
+
+  .welcome-visual {
+    min-height: auto;
+    gap: 14px;
+    padding: max(72px, env(safe-area-inset-top)) 24px 32px;
+  }
+
+  .welcome-visual .brand {
+    top: max(22px, env(safe-area-inset-top));
+    left: 20px;
+  }
+
+  .welcome-orb {
+    width: 56px;
+    height: 56px;
+    border-radius: 18px;
+    font-size: 18px;
+  }
+
+  .welcome-visual h1 {
+    max-width: 350px;
+    font-size: clamp(30px, 9.5vw, 40px);
+    line-height: 1.08;
+  }
+
+  .welcome-visual > p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .welcome-points {
+    display: none;
+  }
+
+  .welcome-form {
+    min-height: calc(100vh - 310px);
+    padding: 32px 24px max(28px, env(safe-area-inset-bottom));
+  }
+
+  .welcome-form > div {
+    width: 100%;
+  }
+
+  .welcome-form h1 {
+    font-size: 30px;
+  }
+
+  .welcome-form input {
+    min-height: 52px;
+    font-size: 16px;
+  }
+
+  .welcome-form .generate {
+    min-height: 54px;
+    font-size: 14px;
+  }
+
+  .welcome-form small {
+    margin-top: 28px;
+  }
+
+  .content {
+    padding-bottom: calc(88px + env(safe-area-inset-bottom));
+  }
+
+  .mobile-bar {
+    padding-top: env(safe-area-inset-top);
+    height: calc(64px + env(safe-area-inset-top));
+  }
+}

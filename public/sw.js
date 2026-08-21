@@ -1,4 +1,4 @@
-const CACHE_NAME = 'apollo-ai-v1';
+const CACHE_NAME = 'apollo-ai-v2';
 const APP_SHELL = [
   './',
   './index.html',
@@ -7,6 +7,7 @@ const APP_SHELL = [
   './src/style.css',
   './src/welcome.css',
   './src/network.css',
+  './src/mobile.css',
   './src/services/globalLotteryDataService.js',
   './icons/apollo-icon.svg'
 ];
