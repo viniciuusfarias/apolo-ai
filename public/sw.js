@@ -1,4 +1,4 @@
-const CACHE_NAME = 'apollo-ai-v3';
+const CACHE_NAME = 'apollo-ai-v4';
 const APP_SHELL = [
   './',
   './index.html',
