@@ -7,7 +7,7 @@ if ('serviceWorker' in navigator) {
 }
 
 const app = document.querySelector('#app');
-const brandLogo = '<img class="brand-logo" src="./icons/apollo-logo.png" alt="Apollo AI" />';
+const brandLogo = '<img class="brand-logo" src="./icons/apollo-logo-transparent.png" alt="Apollo AI" />';
 const globalLotteryDataService = new GlobalLotteryDataService();
 const loadLocalUser = () => { try { return JSON.parse(localStorage.getItem('apollo-user') || 'null'); } catch { return null; } };
 const state = { page: 'dashboard', lottery: 'Powerball', strategy: 'Equilibrada', period: 100, count: 3, saved: [], tickets: [], drawer: false, toast: '', activeTab: 'Hot', user: loadLocalUser(), official: { status: 'loading', draws: [], byGame: {}, health: null, error: null }, analysis: null };

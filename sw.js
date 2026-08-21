@@ -1,5 +1,5 @@
-const CACHE_NAME = 'apollo-ai-v6';
-const APP_SHELL = ['./', './index.html', './manifest.webmanifest', './src/main.js', './src/style.css', './src/welcome.css', './src/network.css', './src/mobile.css', './src/services/globalLotteryDataService.js', './icons/apollo-logo.png'];
+const CACHE_NAME = 'apollo-ai-v7';
+const APP_SHELL = ['./', './index.html', './manifest.webmanifest', './src/main.js', './src/style.css', './src/welcome.css', './src/network.css', './src/mobile.css', './src/services/globalLotteryDataService.js', './icons/apollo-logo-transparent.png'];
 
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL)));

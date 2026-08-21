@@ -1,4 +1,4 @@
-const CACHE_NAME = 'apollo-ai-v6';
+const CACHE_NAME = 'apollo-ai-v7';
 const APP_SHELL = [
   './',
   './index.html',
@@ -9,7 +9,7 @@ const APP_SHELL = [
   './src/network.css',
   './src/mobile.css',
   './src/services/globalLotteryDataService.js',
-  './icons/apollo-logo.png'
+  './icons/apollo-logo-transparent.png'
 ];
 
 self.addEventListener('install', event => {

@@ -11,7 +11,7 @@
   "theme_color": "#102B55",
   "icons": [
     {
-      "src": "./icons/apollo-logo.png",
+      "src": "./icons/apollo-logo-transparent.png",
       "sizes": "1254x1254",
       "type": "image/png",
       "purpose": "any maskable"
