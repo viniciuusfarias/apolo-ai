@@ -1,5 +1,9 @@
 import { GlobalLotteryDataService } from './services/globalLotteryDataService.js';
 
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(() => {}));
+}
+
 const app = document.querySelector('#app');
 const globalLotteryDataService = new GlobalLotteryDataService();
 const state = { page: 'dashboard', lottery: 'Powerball', strategy: 'AI Mix', period: 100, count: 3, saved: [], tickets: [], drawer: false, toast: '', activeTab: 'Hot', user: null };

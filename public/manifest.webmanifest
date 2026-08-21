@@ -1,0 +1,19 @@
+{
+  "name": "Apollo Lottery AI",
+  "short_name": "Apollo AI",
+  "description": "Global lottery intelligence and statistical analysis.",
+  "lang": "en-US",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7fc",
+  "theme_color": "#102B55",
+  "icons": [
+    {
+      "src": "./icons/apollo-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
